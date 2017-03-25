@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="83d203fcdb2476442bedabd5abd457300ec9ebbb">
+        sha1="947cc101839630093345b86ba317ee65063dbaec">
         <dex dex="/home/suchecki300/Pulpit/Android/ElectronicBand/Projekt/ElectronicBand-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4cc38851815355e849376bc9ec2c223bed630235/classes.dex" />
     </item>
     <item
