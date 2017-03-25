@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/prosty"
-            android:drawableStart="@mipmap/ic_launcher"
+            android:drawableStart="@mipmap/ic_launcher_round"
             android:textAlignment="textStart"
             android:background="@drawable/button_kalkulatorki"
             style="@style/button_text"/>
@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/bramki_logiczne"
-            android:drawableStart="@mipmap/ic_launcher"
+            android:drawableStart="@mipmap/ic_launcher_round"
             android:textAlignment="textStart"
             android:background="@drawable/button_kalkulatorki"
             style="@style/button_text"/>
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/descriptions"
-            android:drawableStart="@mipmap/ic_launcher"
+            android:drawableStart="@mipmap/ic_launcher_round"
             android:textAlignment="textStart"
             android:background="@drawable/button_kalkulatorki"
             style="@style/button_text"/>
