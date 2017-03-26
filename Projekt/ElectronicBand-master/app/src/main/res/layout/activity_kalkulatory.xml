@@ -13,31 +13,77 @@
 
         <Button
             android:id="@+id/prosty_k"
+            style="@style/button_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/prosty"
-            android:drawableStart="@mipmap/ic_launcher"
-            android:textAlignment="textStart"
             android:background="@drawable/button_kalkulatorki"
-            style="@style/button_text"/>
+            android:drawableStart="@mipmap/ic_launcher"
+            android:text="@string/prosty"
+            android:textAlignment="textStart" />
+
         <Button
             android:id="@+id/bramki_k"
+            style="@style/button_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/bramki_logiczne"
-            android:drawableStart="@mipmap/ic_launcher"
-            android:textAlignment="textStart"
             android:background="@drawable/button_kalkulatorki"
-            style="@style/button_text"/>
+            android:drawableStart="@mipmap/ic_launcher"
+            android:text="@string/bramki_logiczne"
+            android:textAlignment="textStart" />
+
+<!-- shows submenu -->
+
+        <LinearLayout
+            android:id="@+id/logic_submenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="NOT"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="AND"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="NAND"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="OR"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="NOR"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="XOR"/>
+
+
+
+        </LinearLayout>
+
         <Button
             android:id="@+id/opisy_k"
+            style="@style/button_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/descriptions"
-            android:drawableStart="@mipmap/ic_launcher"
-            android:textAlignment="textStart"
             android:background="@drawable/button_kalkulatorki"
-            style="@style/button_text"/>
+            android:drawableStart="@mipmap/ic_launcher"
+            android:text="@string/descriptions"
+            android:textAlignment="textStart" />
 
     </LinearLayout>
 

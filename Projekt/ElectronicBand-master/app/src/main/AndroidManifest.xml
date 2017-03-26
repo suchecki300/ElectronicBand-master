@@ -16,18 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TheoryActivity"
-            android:label="Teoria"
-            />
-
-        <activity android:name=".Kalkulatory"
-            android:label="@string/kalk"/>
-
-        <activity android:name=".Prosty_Kalkulator"
-            android:label="@string/prosty">
-
-
-        </activity>
+        <activity
+            android:name=".TheoryActivity"
+            android:label="Teoria" />
+        <activity
+            android:name=".Kalkulatory"
+            android:label="@string/kalk" />
+        <activity
+            android:name=".Prosty_Kalkulator"
+            android:label="@string/prosty"></activity>
+        <activity android:name=".Logic_calcs"></activity>
     </application>
 
 </manifest>
