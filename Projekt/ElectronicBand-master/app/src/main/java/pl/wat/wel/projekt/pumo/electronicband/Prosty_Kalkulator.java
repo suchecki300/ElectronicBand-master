@@ -257,37 +257,34 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                 else {
                     if(textView2.getText().toString().equals("+")) {
                         wynik = Float.valueOf(editText.getText().toString()) + Float.valueOf(textView1.getText().toString());
-                        textView1.setText("");
-                        editText.setText("");
-                        textView2.setText(String.valueOf(wynik));
-                        i = 0;
+                        zerowanie_do_wyniku();
                     }
                     else if(textView2.getText().toString().equals("-")){
                         wynik = Float.valueOf(textView1.getText().toString()) - Float.valueOf(editText.getText().toString());
-                        textView1.setText("");
-                        editText.setText("");
-                        textView2.setText(String.valueOf(wynik));
-                        i = 0;
+                        zerowanie_do_wyniku();
 
-                    }
+                                            }
                     else if(textView2.getText().toString().equals("x")){
                         wynik = Float.valueOf(editText.getText().toString()) * Float.valueOf(textView1.getText().toString());
-                        textView1.setText("");
-                        editText.setText("");
-                        textView2.setText(String.valueOf(wynik));
-                        i = 0;
+                        zerowanie_do_wyniku();
 
                     }
                     else if(textView2.getText().toString().equals("/")){
                         wynik = Float.valueOf(textView1.getText().toString()) / Float.valueOf(editText.getText().toString());
-                        textView1.setText("");
-                        editText.setText("");
-                        textView2.setText(String.valueOf(wynik));
-                        i = 0;
+                        zerowanie_do_wyniku();
 
                     }
                 }
         }
+    }
+
+
+    public void zerowanie_do_wyniku()
+    {
+        textView1.setText("");
+        editText.setText("");
+        textView2.setText(String.valueOf(wynik));
+        i = 0;
     }
 
     /*
